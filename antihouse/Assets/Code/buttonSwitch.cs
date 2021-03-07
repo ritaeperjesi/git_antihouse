@@ -17,4 +17,9 @@ public class buttonSwitch : MonoBehaviour
         }
 
     }
+
+    public void RefreshScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
