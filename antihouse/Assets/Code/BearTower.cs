@@ -33,36 +33,36 @@ public class BearTower : MonoBehaviour
 
         for (int y = 0; y < height; ++y)
         {
-            for (int x = -10; x < width; ++x)
+            for (int x = 0; x < width; ++x)
             {
-                newGummibear = Instantiate(maciArray[UnityEngine.Random.Range(0, 3)], new Vector3((x+0.5f), y+1, place_A), Quaternion.Euler(new Vector3(90, Random.Range(0, 360), 0)));
+                newGummibear = Instantiate(maciArray[UnityEngine.Random.Range(0, 3)], new Vector3((x+1.0f), y, place_A), Quaternion.Euler(new Vector3(90, Random.Range(0, 360), 0)));
                 newGummibear.transform.SetParent(Torony.transform);
             }
         }
 
         for (int y = 0; y < height; ++y)
         {
-            for (int x = -10; x < width; ++x)
+            for (int x = 0; x < width; ++x)
             {
-                newGummibear = Instantiate(maciArray[UnityEngine.Random.Range(0, 3)], new Vector3((x + 0.5f), y + 1, place_B), Quaternion.Euler(new Vector3(90, Random.Range(0, 360), 0)));
+                newGummibear = Instantiate(maciArray[UnityEngine.Random.Range(0, 3)], new Vector3((x + 1.0f), y , place_B), Quaternion.Euler(new Vector3(90, Random.Range(0, 360), 0)));
                 newGummibear.transform.SetParent(Torony.transform);
             }
         }
 
         for (int y = 0; y < height; ++y)
         {
-            for (int x = -10; x < width; ++x)
+            for (int x = 0; x < width; ++x)
             {
-                newGummibear = Instantiate(maciArray[UnityEngine.Random.Range(0, 3)], new Vector3(place_C, (y + 0.5f), x + 1), Quaternion.Euler(new Vector3(90, Random.Range(0, 360), 0)));
+                newGummibear = Instantiate(maciArray[UnityEngine.Random.Range(0, 3)], new Vector3(place_C, (y  + 5.0f), x + 2), Quaternion.Euler(new Vector3(90, Random.Range(0, 360), 0)));
                 newGummibear.transform.SetParent(Torony.transform);
             }
         }
 
         for (int y = 0; y < height; ++y)
         {
-            for (int x = -10; x < width; ++x)
+            for (int x = 0; x < width; ++x)
             {
-                newGummibear = Instantiate(maciArray[UnityEngine.Random.Range(0, 3)], new Vector3(place_D, (y + 0.5f), x + 1), Quaternion.Euler(new Vector3(90, Random.Range(0, 360), 0)));
+                newGummibear = Instantiate(maciArray[UnityEngine.Random.Range(0, 3)], new Vector3(place_D, (y  + 5.0f), x + 2), Quaternion.Euler(new Vector3(90, Random.Range(0, 360), 0)));
                 newGummibear.transform.SetParent(Torony.transform);
             }
         }

@@ -65,8 +65,10 @@
   <ItemGroup>
     <Compile Include="Assets\Code\BearTower.cs" />
     <Compile Include="Assets\Code\buttonSwitch.cs" />
+    <Compile Include="Assets\Code\cameraScript.cs" />
     <Compile Include="Assets\Code\ceilingGrow.cs" />
     <Compile Include="Assets\Code\SceneLoader.cs" />
+    <Compile Include="Assets\Code\spaceGrow.cs" />
     <Compile Include="Assets\Code\wallGrowTaller.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
