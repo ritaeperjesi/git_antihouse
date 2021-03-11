@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadLevelr: 02_tower
-  timeInScene: 68
+  timeInScene: 74
 --- !u!4 &133612521
 Transform:
   m_ObjectHideFlags: 0
@@ -301,7 +301,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 152421659}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: 1.9, z: 4}
+  m_LocalPosition: {x: 0, y: 1.9, z: 4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1612926801}
@@ -732,12 +732,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3440714099558992790, guid: c6810e660b1503746abcaab94f349631,
+    - target: {fileID: 8917008095838264366, guid: c6810e660b1503746abcaab94f349631,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8917008095838264366, guid: c6810e660b1503746abcaab94f349631,
+    - target: {fileID: 3440714099558992790, guid: c6810e660b1503746abcaab94f349631,
         type: 3}
       propertyPath: m_IsActive
       value: 0

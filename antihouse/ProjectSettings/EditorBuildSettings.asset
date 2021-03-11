@@ -17,16 +17,19 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/03_Gummybear_texture.unity
     guid: 0e4b08653c7182442ae8de2c5cef1bef
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/03_Gummybear.unity
     guid: 97769730a8a787f4cad56e0246d6b25f
   - enabled: 0
     path: Assets/Scenes/04_big.unity
     guid: 45359a2984784af44a815f413f535598
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/04_big_prefab.unity
+    guid: 9fbfb89462d7e194bbbce75b14ea01b1
+  - enabled: 1
     path: Assets/Scenes/05_small.unity
     guid: a7f582f7bd708ed49bfc95ad05b9b766
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/06_breakup.unity
     guid: d15e1d9152ede4749946bf150feb5825
   m_configObjects: {}
