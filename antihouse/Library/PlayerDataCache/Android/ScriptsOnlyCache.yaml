@@ -14,6 +14,7 @@ ScriptsOnlyBuild:
     - OVRConfig
     Unity.Timeline.Editor.dll:
     - UnityEditor.Timeline.SequenceHierarchy
+    - UnityEditor.Timeline.TimelineAssetViewModel
     - UnityEditor.Timeline.TimelineWindow
     Unity.Timeline.dll:
     - UnityEngine.Timeline.AnimationTrack
@@ -2514,4 +2515,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/04_big_prefab.unity
   - Assets/Scenes/05_small.unity
   - Assets/Scenes/06_breakup.unity
-  playerPath: C:/riti/uni/3-semester/antihouse/git_antihouse/antihouse/0222.apk
+  playerPath: C:/riti/uni/3-semester/antihouse/git_antihouse/antihouse/antihouse_oculusbuild.apk
